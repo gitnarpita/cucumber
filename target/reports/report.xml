@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.275">
+    <testcase classname="Application login" name="Homepage displayed on default login" time="0.092">
+        <system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into the application with "Jin" and "1234"..................passed
+Then home page is displyed..................................................passed
+And diaplayed all the card like rewards card travel cared oil cards "true"..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="Homepage displayed on default login 2" time="0.005">
+        <system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into the application with "Jhon" and "122"..................passed
+Then home page is displyed..................................................passed
+And diaplayed all the card like rewards card travel cared oil cards "false".passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T03:31:52.989Z",
+        "line": 4,
+        "name": "Homepage displayed on default login",
+        "description": "",
+        "id": "application-login;homepage-displayed-on-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1977100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login into the application with \"Jin\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jin\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_login_into_the_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page is displyed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_displyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "diaplayed all the card like rewards card travel cared oil cards \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.diaplayed_all_the_card_like_rewards_card_travel_cared_oil_cards(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-22T03:31:53.091Z",
+        "line": 11,
+        "name": "Homepage displayed on default login",
+        "description": "",
+        "id": "application-login;homepage-displayed-on-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on netbanking landing page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user login into the application with \"Jhon\" and \"122\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jhon\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"122\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_login_into_the_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1087800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "home page is displyed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_displyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "diaplayed all the card like rewards card travel cared oil cards \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.diaplayed_all_the_card_like_rewards_card_travel_cared_oil_cards(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
